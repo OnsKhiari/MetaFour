@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Technic';
+    src: url('fonts/Technic\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Casanova';
+    src: url('fonts/CasanovaRegular.otf') format('opentype');
+}
+
+div.courses_container {
+    background-color: white;
+    width: 80%;
+    height: fit-content;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.search_div {
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 80%;
+    font-family: Technic;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid1 {
+    max-height: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid3 {
+    grid-area: 1 / 5 / 2 / 6;
+    transform: translate(100%, 0);
+    display: flex;
+    max-height: 60%;
+    position: absolute;
+    right: 20%;
+}
+
+#title {
+    text-align: center;
+    font-family: Technic;
+    font-size: 350%;
+    background-color: #ffb000;
+}
+
+div.Course {
+    width: 30%;
+    height: 500px;
+    background-color: rgb(248, 245, 245);
+    border: 2px solid black;
+    text-align: center;
+    font-family: Technic;
+    margin: 0;
+    overflow-wrap: break-word;
+    margin: 1.2%;
+    border-radius: 15px 50px;
+    padding: 0%;
+}
+
+.Course img {
+    position: relative;
+    top: -0.15%;
+    left: -0.15%;
+    width: 100.5%;
+    height: 60%;
+    margin: 0;
+    border-radius: 16px 50px 15px 15px;
+}
+
+.Course a {
+    text-decoration: none;
+    margin: 0;
+}
+
+.Course p {
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 100%;
+    width: 90%;
+    color: whitesmoke;
+    font-size: 200%;
+    text-align: center;
+    font-family: "Technic";
+    letter-spacing: 1px;
+}
+
+.Course h3 {
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 100%;
+    width: 90%;
+    color: #102e5b;
+    font-size: 200%;
+    text-align: center;
+    font-family: "Technic";
+    letter-spacing: 1px;
+}
+
+.Course h4 {
+    height: 21%;
+    color: black;
+    font-weight: lighter;
+    overflow: hidden;
+    margin: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px 5px;
+}
+
+#title {
+    position: absolute;
+    left: 0%;
+    top: 11%;
+    background-color: #0e3a6f;
+    height: 12%;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.form1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#submit_butt1 {
+    background-color: #102e5b;
+    font-size: 0%;
+    font-weight: bolder;
+    color: white;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#submit_butt1:hover {
+    background-color: white;
+    border: 2px solid #102e5b;
+    font-size: 100%;
+    font-weight: bolder;
+    color: #102e5b;
+}
+
+.select1 {
+    font-family: Technic;
+    color: #102e5b;
+    font-size: 1rem;
+    padding: 1.2rem 2.3rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #102e5b;
+    width: 95%;
+    display: block;
+    text-align: left;
+}
+
+.title_area {
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    height: 7%;
+    transition: 0.5s;
+    border-radius: 16px 50px;
+    background-color: #102e5b;
+}
+
+.title_area:hover {
+    background-color: whitesmoke;
+    color: #0e3a6f;
+    transform: translateY(-20px);
+    border: 2px solid #102e5b;
+    height: 8%;
+    border-radius: 50px 16px;
+}
+
+.title_area .price {
+    display: none;
+}
+
+.title_area:hover .title {
+    display: none;
+}
+
+.title_area:hover .price {
+    display: inline;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    height: 9%;
+    margin-left: 30%;
+}
+
+#timer {
+    margin-top: 2%;
+    font-size: 45px;
+}
+
+.time:hover #timer {
+    transition: 0.9s;
+    transform: rotateZ(180deg);
+}

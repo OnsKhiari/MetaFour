@@ -1,0 +1,2 @@
+-Sidebar
+-Set max of character on admin name

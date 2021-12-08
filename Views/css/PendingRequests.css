@@ -1,0 +1,159 @@
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('fonts/OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+body {
+    font-family: technic;
+}
+
+.courses {
+    background-color: whitesmoke;
+    position: absolute;
+    left: 13%;
+    top: 0;
+    width: 87%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.title {
+    align-self: flex-start;
+    margin-left: 2.5%;
+}
+
+.title p {
+    color: black;
+    font-size: 2vw;
+    text-align: end;
+}
+
+.requests {
+    align-self: center;
+    background-color: white;
+    margin-left: 2.5%;
+    display: flex;
+    color: white;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.requests h2 {
+    font-size: 1vw;
+    text-align: left;
+    flex-basis: 100%;
+    color: black;
+    margin-left: 2%;
+}
+
+.req_list th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: white;
+}
+
+.req_list td {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.req_list {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.req_list td,
+.req_list th {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+
+/* Background-color of the odd rows */
+
+.req_list tr:nth-child(odd) {
+    background-color: #11233d;
+}
+
+
+/* Background-color of the even rows */
+
+.req_list tr:nth-child(even) {
+    background-color: #102e5b;
+}
+
+.req_list th {
+    background-color: #102e5b;
+}
+
+.req_list td:first-child {
+    color: #FB667A;
+}
+
+@media (max-width: 800px) {
+    .req_list td:nth-child(4),
+    .req_list th:nth-child(4) {
+        display: none;
+    }
+}
+
+.a_button {
+    background-color: #4CAF50;
+    border: none;
+    width: 90%;
+    font-size: 0.8vw;
+    padding: 13px 32px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#rej {
+    background-color: #FB667A;
+}
+
+#rej:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#acc:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+#view {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#view:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+#del {
+    background-color: tomato;
+}
+
+#del:hover {
+    background-color: red;
+}
+
+.requests a {
+    text-decoration: none;
+    color: white;
+}

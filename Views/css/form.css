@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Technic';
+    src: url('fonts/Technic\ Regular.ttf') format("truetype");
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form__label {
+    font-family: technic;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+    color: black;
+}
+
+.form_input {
+    font-family: Technic;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #102e5b;
+    width: 90%;
+    display: block;
+    transition: all 0.3s;
+}
+
+.form_input:placeholder-shown+.form__label {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+}
+
+.select {
+    font-family: Technic;
+    color: #102e5b;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #102e5b;
+    width: 108%;
+    display: block;
+    text-align: left;
+}
+
+#submit_butt {
+    background-color: #102e5b;
+    font-size: 200%;
+    max-height: 50%;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 8%;
+}
+
+#submit_butt:hover {
+    background-color: white;
+    border: 2px solid #102e5b;
+    font-size: 250%;
+    font-weight: bolder;
+    color: #102e5b;
+}

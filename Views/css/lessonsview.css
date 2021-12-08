@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Technic';
+    src: url('fonts/Technic\ Regular.ttf') format("truetype");
+}
+
+div.lessons_container {
+    background-color: white;
+    width: 98%;
+    height: fit-content;
+    position: relative;
+    left: 1%;
+    top: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.title {
+    text-align: center;
+    font-family: Casanova;
+    font-size: 100%;
+    background-color: #102e5b;
+    position: absolute;
+    top: 13%;
+    left: 0%;
+    width: 100%;
+    height: 60%;
+    padding: 0%;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.title h1 {
+    background-color: whitesmoke;
+    top: 0%;
+    left: 0px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-family: Casanova;
+    border: 2px solid black;
+    color: black;
+}
+
+.title .desc_img {
+    width: 68%;
+    height: 100%;
+    font-family: Technic;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.desc_img p {
+    width: 100%;
+}
+
+.title img {
+    position: absolute;
+    left: 70%;
+    top: 0%;
+    width: 30%;
+    height: 100%;
+}
+
+div.lesson {
+    position: relative;
+    left: 7%;
+    width: 80%;
+    background-color: rgb(248, 245, 245);
+    border: 1px solid black;
+    text-align: center;
+    font-family: technic;
+    margin-bottom: 10%;
+    overflow-wrap: break-word;
+    padding: 3%;
+    border-radius: 15px 50px
+}
+
+.lesson p {
+    height: 5%;
+    width: 100%;
+    margin: 0;
+    font-family: technic;
+}
+
+.error {
+    text-align: center;
+    font-family: technic;
+}
+
+.emoji {
+    font-size: 1800%;
+    text-align: center;
+    font-family: technic;
+    margin: 2%;
+}
+
+#arrow {
+    background-color: #102e5b;
+    font-size: 100%;
+    max-height: 50%;
+    max-width: 20%;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#arrow:hover {
+    background-color: white;
+    border: 2px solid #102e5b;
+    font-size: 120%;
+    font-weight: bolder;
+    color: #102e5b;
+}
+
+#buttons {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
