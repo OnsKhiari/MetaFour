@@ -1,0 +1,316 @@
+thead,tfoot 
+{
+    background-color: #3f87a6;
+    color: #fff;
+}
+
+tbody 
+{
+    background-color: #e4f0f5;
+}
+
+caption 
+{
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table
+{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    position:absolute;
+    top: 5cm;
+    right: 18cm;
+}
+td,th 
+{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+}
+
+td 
+{
+    text-align:center;
+}
+
+.fl-table1
+{
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    position:absolute;
+    top: 5cm;
+    right: 7cm;
+}
+.bt1
+{
+    background-color: #3f87a6;
+    color: #fff;
+ position: absolute;
+ top: 4cm;
+ right: 28cm;
+ border-top-left-radius: 1ex;
+ border-top-right-radius: 1ex;
+ border-bottom-right-radius: 1ex;
+ border-bottom-left-radius: 1ex;
+}
+.bt2
+{
+    background-color: #3f87a6;
+    color: #fff;
+ position: absolute;
+ top: 4cm;
+ right: 14.5cm;
+ border-top-left-radius: 1ex;
+ border-top-right-radius: 1ex;
+ border-bottom-right-radius: 1ex;
+ border-bottom-left-radius: 1ex;
+}
+html footer
+{
+background-color: rgb(41, 79, 151);
+position:static;
+
+padding: .25em 0;
+padding-top: 2rem;
+padding-bottom: 2rem;
+border-top: 3px solid rgb(41, 79, 151);
+width: 100%;
+}
+
+
+footer .credit,footer .credit a {
+  text-align: right;
+  color: rgb(0, 0, 0);
+  font-size: 0.9rem;
+
+}
+@font-face {
+    font-family: 'Technic_bold';
+    src: url('fonts/TechnicBold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Technic';
+    src: url('fonts/Technic\ Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Display.fair';
+    src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Athene';
+    src: url('fonts/Athene.otf') format('opentype');
+}
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #eff1f4;
+}
+
+div.menu {
+    margin: 0;
+    border: 0;
+    height: 100vh;
+    width: 112vh;
+    overflow: hidden;
+}
+
+div.Logo {
+    height: 9%;
+    width: 13%;
+    background-color: #ffffff;
+}
+
+.Logo text {
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 1%;
+    left:1%;
+}
+
+.Logo .text h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Display.fair.bold';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    position: absolute;
+    left: 4.5%;
+    top: -10px;
+}
+
+.Logo .text h2 {
+    color: black;
+    font-family: 'Display.fair';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 8px;
+    position: absolute;
+    left: 4.5%;
+    top: 50px;
+}
+
+.Logo  img {
+    width: 3.4%;
+    height: 7.5%;
+    position: absolute;
+    top: 0.7%;
+    left: 0.3%;
+}
+
+div.sidebar {
+    margin: 0;
+    border: 0;
+    background-color: #11233d;
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+div.sidebar_button img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.items {
+    position: absolute;
+    left: 22px;
+    width: auto;
+}
+
+.sidebar .items a {
+    text-decoration: none;
+}
+
+h1.items {
+    font-size: 20px;
+    height: 15px;
+    text-align: center;
+    text-align: left;
+    font-family: 'Athene';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+div.item {
+    width: 30ch;
+    height: 6vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -20px;
+    border: 1px solid #00000009;
+}
+
+.item h2 {
+    color: #fffefe;
+    text-align: center;
+    text-align: left;
+    font-family: 'Technic';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin: 20px;
+}
+
+div.item:hover>h2, div.item:hover {
+    color: #11233d;
+    background-color: #f9f9f9;
+}
+
+img.line {
+    max-width: 180px;
+    position: relative;
+    left: -30px;
+}
+
+div.profile {
+    width: 30ch;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #11233d;
+}
+
+.profile h1 {
+    text-align: left;
+    font-family: 'Technic_bold';
+    font-weight: normal;
+    font-style: normal;
+    color: #eff1f4;
+    font-size: 15px;
+    height: 10px;
+}
+
+.profile h2 {
+    text-align: left;
+    font-family: 'Display.fair';
+    font-weight: normal;
+    font-style: normal;
+    color: #11233d;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+div.profile_frame {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    bottom: 8px;
+    left: 160px;
+}
+
+div.profile_id {
+    position: relative;
+    bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile .profile_frame img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile .profile_id a {
+    text-decoration: none;
+}
+
+
+
+/*
+<form method="post" action="" enctype="multipart/form-data">
+    <label for="pseudo">Pseudo *</label>
+    <input type="text" id="pseudo" name="pseudo" required><br>
+     
+    <label for="mdp">Mot de passe</label>
+    <input type="password" id="mdp" name="mdp"><br>
+     
+    <label for="prenom">Prenom</label>
+    <input type="text" id="prenom" name="prenom" placeholder="Votre prenom"><br>
+     
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email"><br>
+
+    <input type="submit" value="valider">
+</form>*/
