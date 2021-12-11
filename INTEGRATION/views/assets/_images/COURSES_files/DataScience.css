@@ -1,0 +1,36 @@
+div.courses_container
+{
+background-color:whitesmoke;
+width:100%;
+height: 91%;
+position: absolute;
+left: 0%;
+top: 9%;
+}
+
+div.Course
+{
+background-color: rgb(202, 196, 196);
+border: 1px solid black;
+height: 50%;
+width: 15%;
+text-align: center;
+box-shadow: 5px 5px 3px rgb(54, 54, 54);
+}
+
+.Course img
+{
+position: absolute;
+left: 0;
+top: 0;
+max-height: 50%;
+width: 100%;
+}
+
+
+#HTML
+{
+position: absolute;
+left: 20%;
+top:20%;
+}
