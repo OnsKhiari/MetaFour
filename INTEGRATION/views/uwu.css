@@ -67,6 +67,152 @@ transform: translateY(0) scale(2);
 .uwu ul li span:nth-child(4) {
 --n: 4;
 }
+/****************************************************************************************************************/
+.uuww ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .uuww ul li {
+    cursor: pointer;
+    --c: rgb(0, 0, 0);
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    }
+    
+    .uuww ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+    }
+    
+    .uuww ul li:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 6px rgb(0, 0, 0);
+    }
+    
+    .uuww ul li:hover span {
+    transform: translateY(0) scale(2);
+    }
+    
+    .uuww ul li span:nth-child(1) {
+    --n: 1;
+    }
+    
+    .uuww ul li span:nth-child(2) {
+    --n: 2;
+    }
+    
+    .uuww ul li span:nth-child(3) {
+    --n: 3;
+    }
+    
+    .uuww ul li span:nth-child(4) {
+    --n: 4;
+    }
+
+    .uuww{
+        position: absolute;
+        top: 68px;
+    }
+
+/*******************************************************************************************************************/
+.uuu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .uuu ul li {
+    cursor: pointer;
+    --c: rgb(0, 0, 0);
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    }
+    
+    .uuu ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+    }
+    
+    .uuu ul li:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 6px rgb(0, 0, 0);
+    }
+    
+    .uuu ul li:hover span {
+    transform: translateY(0) scale(2);
+    }
+    
+    .uuu ul li span:nth-child(1) {
+    --n: 1;
+    }
+    
+    .uuu ul li span:nth-child(2) {
+    --n: 2;
+    }
+    
+    .uuu ul li span:nth-child(3) {
+    --n: 3;
+    }
+    
+    .uuu ul li span:nth-child(4) {
+    --n: 4;
+    }
+
+    .uuu{
+        position: absolute;
+        top: 68px;
+    }
+
+
+/*****************************************************************************************************************/
 .owo ul {
     list-style-type: none;
     margin: 0;
@@ -1407,7 +1553,13 @@ left: 850px;
 font-size: 20px;
 color: red;
 }
-
+.errorpost{
+    position: absolute;
+    top: 730px;
+    left: 900px;
+    font-size: 22px;
+    color: red;
+    }
 .namecategory{
     color: white;
     position: absolute;

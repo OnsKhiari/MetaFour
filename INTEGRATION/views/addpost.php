@@ -1,5 +1,5 @@
 <?php 
-include '..\controller\newpost.php';
+include 'C:\xampp\htdocs\ONS\uwu\controller\newpost.php';
 ?>
 
 <!DOCTYPE php>
@@ -64,12 +64,7 @@ include '..\controller\newpost.php';
 
 <div>
   
-<?php if(isset($error)){
-    echo '<p>'.$error.'</p>';
-  }else if(isset($success)){
-    echo '<p>'.$success.'</p>';
-  }
-  ?>
+  
 
 <div class="uwu">
         <ul>
@@ -109,7 +104,10 @@ include '..\controller\newpost.php';
           </li>
         </ul>
       </div>
-    <div>
+
+
+
+<div class="uuww">
       <ul>
       <li class="create" name="create">
         Create
@@ -117,28 +115,8 @@ include '..\controller\newpost.php';
         <input type="submit" name="create" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
       </li>
     </ul>
-  </div>
-  <div>
-    <ul>
-        <li class="delete">
-        Delete
-        <span></span><span></span><span></span><span></span>
-      </li>
-    </ul>
-  </div>
-  <div>
-  <ul>
-    <li class="select" name="selectcategory">
-    Select Category
-    <span></span><span></span><span></span><span></span>
-    <input type="submit" name="selectcategory" style="width: 200px;height:100px;color: transparent; background-color: transparent;
-    border-color: transparent; cursor: pointer; position:absolute; left:0px;">
-    <?php if(isset($_POST['selectcategory'])){
-    header('Location: ../views/selectcategory.php');
-    }?>
-  </li>
-</ul>
 </div>
+  
 
       
     
@@ -152,7 +130,12 @@ include '..\controller\newpost.php';
       <?php echo '<a href="#user" class="username_99" > '. $_SESSION['user_name'] .' </a>'; ?>
 
         <div class="photo2_99"></div>
+
+
+        <p class="errorpost"><?php if(isset($error)){echo $error;}?></p>
 </div>
+
+
 </form>
 
     <script src="uwu.js"></script>

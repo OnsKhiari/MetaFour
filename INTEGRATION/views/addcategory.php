@@ -1,5 +1,5 @@
 <?php 
-include '..\controller\newcategory.php';
+include 'C:\xampp\htdocs\ONS\uwu\controller\newcategory.php';
 ?>
 
 <!DOCTYPE html>
@@ -119,16 +119,18 @@ include '..\controller\newcategory.php';
       <label for="img">Add Photo:</label>
       <input type="file" id="img" name="img"></div>
     <div>
+    
+  <div class="uuww">
     <ul>
         <li class="create_88">
-        Create
+        create
         <span></span><span></span><span></span><span></span>
         <input type="submit" name="create" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
-
       </li>
     </ul>
   </div>
-  <div>
+
+  <div class="uuu">
     <ul>
         <li class="delete_88">
         Drop
