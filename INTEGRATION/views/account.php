@@ -1,5 +1,9 @@
 <?php 
 include '..\controller\showaccount.php';
+include_once '../Controller/categorieC.php';
+$categorieC=new CategorieC();
+$listecategorie=$categorieC->affichercategorie();
+	
 ?>
 
 <!DOCTYPE html>

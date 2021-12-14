@@ -98,44 +98,26 @@
 <button class="buttonC">ajouter au panier</button></a>
 	</section>
 	<footer>
-		<div class="fotter">
-			<address> <strong> Get Started: </strong><a href="" class="text-down"> </br> SIGN IN, </br> Membership
-					offers,</br> shopping list</address></a>
-			<br>
-			<address> <strong>AboutUs:</strong> <a href="" class="text-down"> <br>OUR TEAM,</br> OUR PROJECTS,</br> FAQ
-			</address></a>
 
+	<div class="containerfooter left">
+		<span>Get Started:<br></br> SIGN IN, </br> Membership offers,</br> shopping list</span>
+	
+	</div>
 
-			<ul class="nav">
+	<div class="containerfooter center">
+	<span>AboutUs:<br>
+		<img src="assets/img/Facebook Logo.png" height="40">
+		<img src="assets/img/insta.png" height="49"></span>
+	</div>
 
-				<li>
-					<a class="pg" href="https://www.facebook.com" target="_blank"><img
-							src="assets/img/Facebook Logo.png"></a>
-				</li>
-				<li>
-					<a class="pg1" href="https://www.instagram.com" target="_blank"><img src="assets/img/insta.png"
-							height="49"></a>
-				</li>
-				<div class="credit">
-					<a>Copyright &copy; 2021 - Meta-Four</a>
-					<div class="cant">
-						<a> Cantact Us: </a>
-					</div>
-			</ul>
+	<div class="containerfooter right">
+	<img src="assets/img/logofinal.png" alt="Banner" width="76"><br>
+				<span><strong>Meta_four</strong><br>
+				<br><span>Copyright &copy; 2021 - Meta-Four</span></span>
 
-			<div id="logof">
-				<img src="assets/img/logofinal.png" alt="Banner" width="76"><br>
+	</div>
 
-			</div>
-
-			<div id="logof">
-				<img src="assets/img/logofinal.png" alt="Banner" width="76"><br>
-				<strong>Meta_four</strong>
-			</div>
-			<p><strong>communication:</strong> <a href="" class="text-down"> <br>FORUM</br> DEVELOPPRES </address></a>
-			</p>
-		</div>
-	</footer>
+</footer>
 </body>
 
 </html>

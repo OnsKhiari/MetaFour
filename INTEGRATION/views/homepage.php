@@ -1,6 +1,8 @@
 <?php 
 include_once '..\controller\affichagepost.php';
-
+include_once '../Controller/categorieC.php';
+$categorieC=new CategorieC();
+$listecategorie=$categorieC->affichercategorie();
 	
 
 ?>
@@ -48,8 +50,8 @@ include_once '..\controller\affichagepost.php';
 
     </div>
     <div class="account">
-        <a href="Dashboard.html">MyAccount</a>
-    </div>
+			<a href="0login.php">MyAccount</a>
+		</div>
 </nav>
 <div class="p1">
     <span style='font-size:50px;'>&#9474;</span>
@@ -122,7 +124,7 @@ include_once '..\controller\affichagepost.php';
             <span></span><span></span><span></span><span></span>
             <input type="submit" name="mycategories" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
             <?php if(isset($_POST['mycategories'])){
-            header('Location: ../views/topcategories.php');
+            header('Location: topcategories.php');
             }?>
           </li>
         </ul>

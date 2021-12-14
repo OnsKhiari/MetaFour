@@ -1,5 +1,9 @@
 <?php 
 include '..\controller\searchcategory.php';
+include_once '../Controller/categorieC.php';
+$categorieC=new CategorieC();
+$listecategorie=$categorieC->affichercategorie();
+	
 ?>
 
 <!DOCTYPE html>
@@ -45,8 +49,8 @@ include '..\controller\searchcategory.php';
 
     </div>
     <div class="account">
-        <a href="Dashboard.html">MyAccount</a>
-    </div>
+			<a href="0login.php">MyAccount</a>
+		</div>
 </div>
 <div class="p1">
     <span style='font-size:50px;'>&#9474;</span>

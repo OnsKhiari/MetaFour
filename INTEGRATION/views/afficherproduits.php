@@ -42,7 +42,7 @@
                                         src='assets\_images\1x\Asset 7.png'>
                                 <br>
 
-                                <a href='#'>
+                                <a href='DashboardA.php'>
                                         <div class="item">
                                                 <h2 class="sidebar">Dashboard</h2>
                                         </div>
