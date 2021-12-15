@@ -1,9 +1,5 @@
 <?php 
-include '..\controller\newcategory.php';
-include_once '../Controller/categorieC.php';
-$categorieC=new CategorieC();
-$listecategorie=$categorieC->affichercategorie();
-	
+include 'C:\xampp\htdocs\ONS\uwu\controller\newcategory.php';
 ?>
 
 <!DOCTYPE html>
@@ -50,8 +46,8 @@ $listecategorie=$categorieC->affichercategorie();
 
     </div>
     <div class="account">
-			<a href="0login.php">MyAccount</a>
-		</div>
+        <a href="Dashboard.html">MyAccount</a>
+    </div>
 </div>
 <div class="p1">
     <span style='font-size:50px;'>&#9474;</span>
@@ -79,14 +75,14 @@ $listecategorie=$categorieC->affichercategorie();
             <span></span><span></span><span></span><span></span>
             <input type="submit" name="home" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
             <?php if(isset($_POST['home'])){
-            header('Location: homepage.php');
+            header('Location: ../views/homepage.php');
             }?>
           <li>
             Account
             <span></span><span></span><span></span><span></span>
             <input type="submit" name="account" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
             <?php if(isset($_POST['account'])){
-            header('Location: account.php');
+            header('Location: ../views/account.php');
             }?>
           </li>
           </li>
@@ -95,7 +91,7 @@ $listecategorie=$categorieC->affichercategorie();
             <span></span><span></span><span></span><span></span>
             <input type="submit" name="addcategory" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
             <?php if(isset($_POST['addcategory'])){
-            header('Location: addcategory.php');
+            header('Location: ../views/addcategory.php');
             }?>
 
           </li>
@@ -104,7 +100,7 @@ $listecategorie=$categorieC->affichercategorie();
             <span></span><span></span><span></span><span></span>
             <input type="submit" name="addpost" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
             <?php if(isset($_POST['addpost'])){
-            header('Location: selectcategory.php');
+            header('Location: ../views/selectcategory.php');
             }?>
 
           </li>
@@ -123,23 +119,25 @@ $listecategorie=$categorieC->affichercategorie();
       <label for="img">Add Photo:</label>
       <input type="file" id="img" name="img"></div>
     <div>
+    
+  <div class="uuww">
     <ul>
         <li class="create_88">
-        Create
+        create
         <span></span><span></span><span></span><span></span>
         <input type="submit" name="create" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
-
       </li>
     </ul>
   </div>
-  <div>
+
+  <div class="uuu">
     <ul>
         <li class="delete_88">
         Drop
         <span></span><span></span><span></span><span></span>
         <input type="submit" name="drop" style="width: 200px;height:100px;color: transparent; background-color: transparent; border-color: transparent; cursor: pointer; position:absolute;left:0px;">
         <?php if(isset($_POST['drop'])){
-        header('Location: homepage.php');
+        header('Location: ../views/homepage.php');
         }?>
       </li>
     </ul>
